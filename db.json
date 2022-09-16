@@ -894,7 +894,7 @@
     "telemetry-with-dynamic-threshold": {
         "Kind": "Telemetry",
         "Fields": [
-            "aspects.ControlConnection.Temp"
+            "aspects.ControlConnection.Temp", "aspects.ControlConnection.Pressure"
         ],
         "Data": {
             "aspects.ControlConnection.Temp": [
