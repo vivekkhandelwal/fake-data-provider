@@ -1,0 +1,42 @@
+{
+        "swagger": "2.0",
+        "info": {
+            "title": "Mock Data Provider",
+            "version": "v1"
+        },
+        "paths": {
+            "/linear-axis-trend-plot.json": {
+                "get": {
+                    "tags": [],
+                    "parameters": [],
+                    "responses": {
+                        "200": {
+                            "description": "Success"
+                        }
+                    }
+                }
+            },
+            "/telemetry-with-dynamic-threshold.json": {
+                "get": {
+                    "tags": [],
+                    "parameters": [],
+                    "responses": {
+                        "200": {
+                            "description": "Success"
+                        }
+                    }
+                }
+            },
+            "/telemetry-data-for-guage.json": {
+                "get": {
+                    "tags": [],
+                    "parameters": [],
+                    "responses": {
+                        "200": {
+                            "description": "Success"
+                        }
+                    }
+                }
+            }
+        }
+    }
