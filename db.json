@@ -27,6 +27,17 @@
                         }
                     }
                 }
+            },
+            "/telemetry-data-for-guage": {
+                "get": {
+                    "tags": [],
+                    "parameters": [],
+                    "responses": {
+                        "200": {
+                            "description": "Success"
+                        }
+                    }
+                }
             }
         }
     },
@@ -97,5 +108,33 @@
                 "max": 200
             }
         }
+    },
+    
+    "telemetry-data-for-guage": {
+        "Kind": "Telemetry",
+        "Fields": [
+            "value", "min", "max"
+        ],
+        "Data": {
+            "value": [
+                {
+                    "v": 87.0,
+                    "t": "2022-09-05T23:26:47Z"
+                }
+            ],
+            "min": [
+                {
+                    "v": 0,
+                    "t": "2022-09-05T23:26:47Z"
+                }
+            ],
+            "max": [
+                {
+                    "v": 150.0,
+                    "t": "2022-09-05T23:26:47Z"
+                }
+            ]
+        },
+        "Metadata": null
     }
 }
