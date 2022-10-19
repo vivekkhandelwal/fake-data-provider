@@ -1,0 +1,29 @@
+{
+    "Kind": "Tabular",
+    "Fields": [
+        "frequency",
+        "value"
+    ],
+    "Data": [
+        {
+            "frequency": 0,
+            "value": 0
+        },
+        {
+            "frequency": 1.43051147,
+            "value": 0.107830619400855
+        },
+        {
+            "frequency": 2.86102294,
+            "value": 0.246222700563409
+        },
+        {
+            "frequency": 4.29153441,
+            "value": 0.149239403747037
+        },
+        {
+            "frequency": 5.72204588,
+            "value": 0.13074289080492
+        }
+    ]
+}
