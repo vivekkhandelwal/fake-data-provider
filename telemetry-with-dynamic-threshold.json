@@ -1,0 +1,39 @@
+{
+    "Kind": "Telemetry",
+    "Fields": [
+        "aspects.ControlConnection.Temp", "aspects.ControlConnection.Pressure"
+    ],
+    "Data": {
+        "aspects.ControlConnection.Temp": [
+            {
+                "v": 87.0,
+                "t": "2022-09-05T23:26:47Z"
+            },
+            {
+                "v": 87.0,
+                "t": "2022-09-06T07:26:47Z"
+            }
+        ],
+        "aspects.ControlConnection.Pressure": [
+            {
+                "v": 150.0,
+                "t": "2022-09-05T23:26:47Z"
+            },
+            {
+                "v": 155.0,
+                "t": "2022-09-06T07:26:47Z"
+            }
+        ]
+    },
+    "Metadata": null,
+    "Threshold": {
+        "aspects.ControlConnection.Temp": {
+            "min": 60,
+            "max": 90
+        },
+        "aspects.ControlConnection.Pressure": {
+            "min": 100,
+            "max": 200
+        }
+    }
+}
