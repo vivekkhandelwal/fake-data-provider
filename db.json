@@ -38,6 +38,17 @@
                         }
                     }
                 }
+            },
+            "/position-selector": {
+                "get": {
+                    "tags": [],
+                    "parameters": [],
+                    "responses": {
+                        "200": {
+                            "description": "Success"
+                        }
+                    }
+                }
             }
         }
     },
@@ -136,5 +147,30 @@
             ]
         },
         "Metadata": null
+    },
+    "position-selector": {
+        "Kind": "Tabular",
+        "Fields": [
+            "label",
+            "value"
+        ],
+        "Data": [
+            {
+                "label": "*",
+                "value": [ "DE", "NDE", "CEN" ]
+            },
+            {
+                "label": "DE",
+                "value": [ "DE" ]
+            },
+            {
+                "label": "NDE",
+                "value": [ "NDE" ]
+            },
+            {
+                "label": "CEN",
+                "value": [ "CEN" ]
+            }
+        ]
     }
 }
