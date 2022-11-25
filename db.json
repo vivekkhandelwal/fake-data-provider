@@ -157,19 +157,19 @@
         "Data": [
             {
                 "label": "*",
-                "value": [ "DE", "NDE", "CEN" ]
+                "value": [ "aspects.GeneralProperties.Envelope_DE", "aspects.GeneralProperties.Envelope_NDE", "aspects.GeneralProperties.Envelope_CEN" ]
             },
             {
                 "label": "DE",
-                "value": [ "DE" ]
+                "value": [ "aspects.GeneralProperties.Envelope_DE" ]
             },
             {
                 "label": "NDE",
-                "value": [ "NDE" ]
+                "value": [ "aspects.GeneralProperties.Envelope_NDE" ]
             },
             {
                 "label": "CEN",
-                "value": [ "CEN" ]
+                "value": [ "aspects.GeneralProperties.Envelope_CEN" ]
             }
         ]
     }
