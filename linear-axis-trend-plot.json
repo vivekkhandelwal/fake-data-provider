@@ -2,28 +2,34 @@
     "Kind": "Tabular",
     "Fields": [
         "frequency",
-        "value"
+        "value",
+        "timestamp"
     ],
     "Data": [
         {
             "frequency": 0,
-            "value": 0
+            "value": 0,
+            "timestamp": "2023-05-11T07:04:33.454Z"
         },
         {
             "frequency": 1.43051147,
-            "value": 0.107830619400855
+            "value": 0.107830619400855,
+            "timestamp": "2023-05-11T07:04:33.454Z"
         },
         {
             "frequency": 2.86102294,
-            "value": 0.246222700563409
+            "value": 0.246222700563409,
+            "timestamp": "2023-05-11T07:04:33.454Z"
         },
         {
             "frequency": 4.29153441,
-            "value": 0.149239403747037
+            "value": 0.149239403747037,
+            "timestamp": "2023-05-11T07:04:33.454Z"
         },
         {
             "frequency": 5.72204588,
-            "value": 0.13074289080492
+            "value": 0.13074289080492,
+            "timestamp": "2023-05-11T07:04:33.454Z"
         }
     ]
 }
